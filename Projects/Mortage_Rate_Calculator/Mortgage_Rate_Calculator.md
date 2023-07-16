@@ -1,4 +1,8 @@
-**Overview:** Our goal is to create a program that will calculate the monthly payment and display it as a currency.
+# Mortgage Rate Calculator
+
+## Overview
+
+Our goal is to create a program that will calculate the monthly payment and display it as a currency.
 
 The user should be prompted 3 times to input relevant values:
 
@@ -20,7 +24,9 @@ The formula to calculate monthly mortgage rates is as follows is as follows:
 
 - **n** - is the total number of monthly payments (loan period multiplied by 12)
 
-Here's the Java code I wrote as a solution to this problem:
+Below is te Java code I wrote as a solution to this problem.
+
+## Solution
 
 ```
 import java.text.NumberFormat;
@@ -52,6 +58,8 @@ public class Main {
     }
 ```
 
-**Conclusion**: After finishing I looked at examples of how others implemented this project. I realized that I could have made the code simpler by converting `int principal = Integer.parseInt(scannerObj.nextLine());` to ` int principal = scannerObj.nextInt();`.
+## Conclusion
+
+After finishing I looked at examples of how others implemented this project. I realized that I could have made the code simpler by converting `int principal = Integer.parseInt(scannerObj.nextLine());` to ` int principal = scannerObj.nextInt();`.
 
 I could have also applied something similar to the other inputs. In general, I learned that instead of having to convert between data types, we can 'prime' the scanner to directly read the input as the type of data we want.
