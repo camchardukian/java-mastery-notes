@@ -24,7 +24,7 @@ The formula to calculate monthly mortgage rates is as follows is as follows:
 
 - **n** - is the total number of monthly payments (loan period multiplied by 12)
 
-Below is te Java code I wrote as a solution to this problem.
+Below is the Java code I wrote as a solution to this problem.
 
 ## Solution
 
